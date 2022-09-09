@@ -1,0 +1,131 @@
+.modal-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(11, 11, 11, 0.7);
+  .modal {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    background-color: #fff;
+  }
+  .modal-header {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .modal-title-block {
+    display: flex;
+    flex-direction: column;
+  }
+  .modal-title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .modal-subtitle {
+    font-size: 12px;
+    color: grey;
+  }
+  .modal-close {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    svg {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .modal-body {
+    margin-bottom: 35px;
+  }
+  .input-wrap {
+    position: relative;
+    margin-bottom: 25px;
+    input {
+      display: block;
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 5px;
+      border: none;
+      border-bottom: 1px solid #000;
+      outline: none;
+    }
+    svg {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      bottom: 10px;
+      right: 0;
+      fill: cadetblue;
+    }
+  }
+  .textarea-wrap {
+    position: relative;
+    margin-bottom: 25px;
+    textarea {
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 5px;
+      resize: none;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid #000;
+    }
+    svg {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      bottom: 10px;
+      right: 0;
+      fill: cadetblue;
+    }
+  }
+  .date-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .date,
+  .time {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #000;
+    svg {
+      margin-left: 10px;
+      height: 20px;
+      width: 20px;
+    }
+  }
+  .btn-wrap {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  .delete-btn {
+    margin-right: 5px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    svg {
+      width: 30px;
+      height: 30px;
+      fill: #fff;
+    }
+  }
+  .save-btn {
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+  }
+}

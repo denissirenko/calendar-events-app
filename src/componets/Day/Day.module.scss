@@ -1,0 +1,28 @@
+.day-wrap {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(229 231 235);
+  &.current-day {
+    background-color: aquamarine;
+  }
+  .day-info {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  .day-week {
+    text-align: center;
+  }
+  .date {
+    text-align: center;
+  }
+  .eventItem {
+    margin-bottom: 5px;
+    padding: 0 10px;
+    background-color: cadetblue;
+    color: #fff;
+    cursor: pointer;
+  }
+}

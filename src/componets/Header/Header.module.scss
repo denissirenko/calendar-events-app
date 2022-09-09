@@ -1,0 +1,45 @@
+.header {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .add-events {
+    display: flex;
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    background-color: cadetblue;
+    svg {
+      margin: auto;
+      width: 25px;
+      height: 25px;
+      fill: white;
+    }
+  }
+  .calendar {
+    display: flex;
+    align-items: center;
+  }
+  .set-month-btn {
+    border: none;
+    background-color: transparent;
+    svg {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .month {
+    margin: 0 5px;
+  }
+  .calendar-btn {
+    margin-left: 15px;
+    padding: 2px 10px;
+    background-color: transparent;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 5px;
+    svg {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
